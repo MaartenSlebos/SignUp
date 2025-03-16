@@ -53,11 +53,11 @@
                         </div>
                         <div class="form-item">
                             <label for="pass1">PASSWORD</label>
-                            <input type="password" id="pass1" name="pass1">
+                            <input type="password" id="pass1" name="pass1" pattern=".{8,}" required>
                         </div>
                         <div class="form-item">
                             <label for="pass2">CONFIRM PASSWORD</label>
-                            <input type="password" id="pass2" name="pass2">
+                            <input type="password" id="pass2" name="pass2" pattern=".{8,}" required>
                         </div>
                     </div>
                 </form>
@@ -66,7 +66,7 @@
             <div class="right-bottom">
                 <button id="sign-up-button">Create Account</button>
 
-                <div>Already have an account? Log in</div>
+                <div>Already have an account? <a href="index.html">Log in</a></div>
 
             </div>
 

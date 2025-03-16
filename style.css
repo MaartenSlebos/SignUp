@@ -19,9 +19,28 @@ body {
 }
 
 .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 40vw;
+    background-image: url(images/castle.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .right {
     width: 60vw;
+}
+
+.logo-box {
+    height: 200px;
+    background-color: black;
+    opacity: 30%;
+    margin-top: 250px;
+}
+
+.copyright {
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
 }

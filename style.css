@@ -68,8 +68,13 @@ body {
 }
 
 .right-top {
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-end; 
+    align-items: flex-start;
     height: 35%;
     background-color: #f2f2f2;
+    padding: 0px 200px 50px 50px;
 }
 
 .right-middle {
@@ -80,4 +85,9 @@ body {
 .right-bottom {
     height: 35%;
     background-color: #f2f2f2;
+}
+
+#tag-text {
+    width: 520px;
+    font-size: 18px;
 }
